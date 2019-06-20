@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>form</title>
+</head>
+<body>
+	<p> CÁLCULO DEL PRECIO MEDIO DE UN PRODUCTO </p><br>
+	
+	<form name="formularioDatos" method="POST" action="datosFormPOST.php">
+		<label for="">Introduzca el precio del producto en el establecimiento número 1, en euros:</label>
+			<input type="text" name="precio1" value=""><br>
+		<label for="">Introduzca el precio del producto en el establecimiento número 2, en euros:</label>
+			<input type="text" name="precio2" value=""><br>
+		<label for="">Introduzca el precio del producto en el establecimiento número 3, en euros:</label>
+			<input type="text" name="precio3" value=""><br>
+
+
+		<!-- mejorar con isset or empty los datos -->
+		<input value="Calcular" type="submit" />
+
+	</form>
+</body>
+</html>
